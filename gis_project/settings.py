@@ -86,9 +86,9 @@ WSGI_APPLICATION = 'gis_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'hospitaldb', 
-        'USER': 'postgres', 
-        'PASSWORD': 'sunshine',
+        'NAME': '', # YOUR DB NAME
+        'USER': '', # YOUR DB USERNAME
+        'PASSWORD': '',
         'HOST': 'localhost', 
         'PORT': '5432'   
     }
